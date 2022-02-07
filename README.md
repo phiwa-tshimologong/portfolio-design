@@ -13,4 +13,4 @@ Understanding and translating what is needed for the portfolio website into roug
 <img src="https://user-images.githubusercontent.com/98871804/152751689-0dfc464b-cbbb-4d3a-b80c-23ce724dc5b9.jpg" width="450"></img>
 
 ## Digital Wireframe  
-Now that I have an idea of a possible layout of the portfolio website for Barbie from the paper sketched wireframe, I can now build up a digital wireframing tool [draw.io](https://draw.io) to have a shareable copy of the wireframe
+Now that I have an idea of a possible layout of the portfolio website for Barbie from the paper sketched wireframe, I can now build up a digital wireframing tool [draw.io](https://draw.io target="_blank") to have a shareable copy of the wireframe
