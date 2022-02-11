@@ -11,9 +11,13 @@ Notable awards accent colors - #E8D5B5
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    color: #352541;
+    scroll-behavior: smooth;
 }
 /* ==================Header================== */
-
+header{
+    height: 100vh;
+}
 .nav{
     display: flex;
     background: #AA7AD1;
@@ -21,9 +25,11 @@ Notable awards accent colors - #E8D5B5
 }
 .nav-links{
     display: block;
-    margin-left: auto;
+    margin-left: auto  ;
+   
 }
 .nav-links ul {
+    
     margin: 1rem 0;
 }
 .nav-links ul li{
@@ -39,6 +45,7 @@ Notable awards accent colors - #E8D5B5
     color: #fff;
     transition: 0.2s ease-in-out;
     
+    
 }
 .nav-links ul li a:hover{
     background-color: #a160d6;
@@ -47,4 +54,40 @@ Notable awards accent colors - #E8D5B5
 
 .nav img fill{
     color: #a160d6;
+}
+
+/* -------- */
+.headline{
+    padding: 10rem 5%;
+    display: flex;
+}
+.headline img{
+    width: 20rem;
+    border-radius: 0.8rem;
+    transform: rotate(7deg);
+    border: 0.6rem solid #BDA0D4;
+    margin-right: 4rem;
+    z-index: -1;
+}
+
+.intro h1{
+    font-size: 5rem;
+    font-weight: 500;
+    padding: 0;
+}
+.intro p{
+    margin: 5rem 0;
+}
+.social-links a i{
+    color: #a160d6;
+    font-size: 3rem;
+    margin: 0 0.8rem;
+}
+.social-links a i:first-child{
+    margin-left: 0;
+    margin-right: 0.8rem;
+}
+.scroll-btn{
+    text-align: center;
+    
 }
