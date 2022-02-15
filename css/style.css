@@ -91,3 +91,9 @@ header{
     text-align: center;
     
 }
+
+@media (min-width: 1920px){
+    .scroll-btn{
+        margin-top: 20rem;
+    }
+}
