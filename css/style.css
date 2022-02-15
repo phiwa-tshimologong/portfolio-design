@@ -61,7 +61,7 @@ header{
 
 /* -------- */
 .headline{
-    padding: 15rem 5% 5rem 5%;
+    padding: 12rem 5% 5rem 5%;
     display: flex;
 }
 .headline img{
@@ -98,7 +98,7 @@ header{
 
 @media (min-width: 1920px){
     .scroll-btn{
-        margin-top: 18rem;
+        margin-top: 12rem;
     }
 }
 
@@ -216,4 +216,42 @@ hr{
 .award-card-content span{
     margin:  0 5% ;
     color: #777777;
+}
+
+/*Gallery*/
+.graphics{
+    margin: 3rem 0;
+    display: flex;
+}
+.graphics iframe{
+    width: 50%;
+    height: 500px;
+}
+.images{
+    display: block;
+    margin: 0 0 0 5rem;
+    width: 45%;
+    padding: 0.5rem 0;
+}
+.images img{
+    width: 225px;
+    height: 220px;
+    object-fit: cover;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+.graphics:last-child .images{
+    margin: 0 5rem 0 0;
+}
+@media (max-width: 1919px){
+    .images img{
+        width: 185px;
+        height: 150px;
+
+        margin: 2px 3px;
+    }
+    .graphics iframe{
+        height: 370px;
+    }
+    
 }
