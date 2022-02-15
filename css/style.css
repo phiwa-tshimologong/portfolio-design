@@ -255,3 +255,44 @@ hr{
     }
     
 }
+
+
+/* Contact */
+.connect-container{
+    background-color: #AA7AD1;
+    
+}
+
+.connect h2 {
+    border-bottom: #FFFADE 0.5rem solid;
+    color: #FFFADE;
+    
+}
+.connect p{
+    color: #FFFADE;
+    margin: 3rem 0;
+    text-align: center;
+}
+
+form{
+    width: 700px;
+    background-color: red;
+    margin: auto;
+    overflow: h;
+}
+input{   
+    width: 100%;
+    font-size: 1.3rem;
+    border-radius: 1.3rem;
+    padding: 5px 10px;
+    border: none;
+    margin: 2px;
+}
+.bio{
+    display: flex;
+}
+
+input{
+    display: block;
+
+}
