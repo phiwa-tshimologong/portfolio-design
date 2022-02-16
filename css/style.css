@@ -120,17 +120,17 @@ h2{
     padding: 1rem;
 }
 
-.my-life blockquote{
+ blockquote{
     width: 80%;
     margin: 3rem auto;
     font-size: 1.3rem;
     color: #6d6d6d;
 }
-.my-life blockquote p{
+ blockquote p{
     color: #777777;
     text-align: center;
 }
-.my-life blockquote cite{
+ blockquote cite{
     text-align: end;
     display: block;
 }
@@ -276,23 +276,54 @@ hr{
 
 form{
     width: 700px;
-    background-color: red;
     margin: auto;
     overflow: h;
 }
 input{   
     width: 100%;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     border-radius: 1.3rem;
     padding: 5px 10px;
     border: none;
-    margin: 2px;
+    margin: 0.8rem 0.2rem 0 0;
+    box-sizing: border-box;
 }
 .bio{
     display: flex;
 }
 
-input{
-    display: block;
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    border: 0;
+    resize: none;
+    margin: 0.8rem 0.2rem 0 0;
+}
+button{
+    margin: 0.8rem 0 ;
+    width: 100%;
+    font-size: 1.8rem;
+    border: #ffffff00 solid 2px;
+    border-radius: 1.5rem;
+    background-color: #FFFADE;
+    transition: 0.2s ease-in-out;
+    color: #9a57d1;
+    
+}
+button:hover{
+    background-color: #aa7ad1;
+    border: 2px solid #FFFADE;
+    color: #FFFADE;
+}
+
+/* footer */
+footer{
+    background-color: #AA7AD1;
+    padding: 1rem 5%;
+}
+
+footer p{
+    color: #fff;
 
 }
